@@ -5,7 +5,7 @@
     <div>
       <img class="w-full object-cover" src="../assets/img/card1.jpg" alt="product"/>
     </div>
-    <div class="flex grow flex-col px-3 pb-5">
+    <div class="flex grow flex-col px-6 pb-5">
       <h3 class="mt-6 text-center text-xl font-bold text-stone-700">
         Кирпич полнотелый
       </h3>
@@ -23,11 +23,13 @@
           <span class="px-1 text-3xl font-bold text-stone-700">35</span>
           руб/шт
         </p>
-        <button
-          class="rounded-full bg-primary px-9 py-3 text-lg font-medium uppercase tracking-widest text-white transition-colors duration-150 hover:bg-primaryHover"
-        >
-          Заказать
-        </button>
+         <router-link :to="{name: 'product', params: {id: 2}}">
+           <button
+             class="rounded-full bg-primary px-9 py-3 text-lg font-medium tracking-widest text-white transition-colors duration-150 hover:bg-primaryHover"
+           >
+             Подробнее
+           </button>
+         </router-link>
       </div>
     </div>
   </div>

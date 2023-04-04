@@ -1,17 +1,19 @@
 <template>
   <div
-    class="relative h-screen bg-[url('../assets/img/back.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/30"
+    class="relative h-screen bg-[url('../assets/img/back.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/40"
   >
+     <!-- Header -->
+     <TheHeader />
+     <!-- Панель навигации -->
+     <TheMenu />
+
     <div class="relative mx-auto flex h-full max-w-7xl flex-col">
-      <!-- Header -->
-      <TheHeader />
-      <!-- Панель навигации -->
-      <TheMenu />
+
       <!-- Информация -->
       <div class="relative h-full">
-        <div class="absolute left-4 top-1/4">
-          <h1 class="max-w-4xl text-6xl font-extrabold uppercase text-white">
-            Тамбовский кирпичный завод
+        <div class="absolute left-4 top-24">
+          <h1 class="max-w-4xl text-6xl font-extrabold uppercase text-white tracking-wide leading-tight">
+            Тамбовский кирпичный завод "Гиперпресс"
           </h1>
           <span class="mt-3 block text-lg font-medium text-white opacity-80">
             Лучший в мире кирпичный завод завод (Тут какой-то текст)
@@ -32,14 +34,14 @@
       <h2
         class="text-center text-4xl font-extrabold tracking-wide text-stone-700"
       >
-        Наша
-        <span class="text-primary">продукция</span>
+        <span class="text-primary font-bold">
+            Популярное</span>
       </h2>
       <!-- Карточки -->
       <div
         class="mt-14 grid grid-flow-row grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
       >
-        <BrickCard v-for="i in 6" :key="i" />
+        <BrickCard v-for="i in 3" :key="i" />
       </div>
     </section>
 
@@ -60,7 +62,7 @@
           />
         </div>
         <div class="grow basis-3/5 pb-4 pl-7 pr-4">
-          <h3 class="text-2xl font-semibold">
+          <h3 class="text-2xl font-bold">
             Тамбовский кирпичный завод "Гиперпресс"
           </h3>
           <p class="mt-6 text-base">
@@ -94,6 +96,7 @@ import Footer from '../components/TheFooter.vue';
 export default {
   name: 'HomePage',
   components: { TheHeader, TheMenu, BrickCard, Footer },
+
 };
 </script>
 

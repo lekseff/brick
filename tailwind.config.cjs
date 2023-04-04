@@ -7,10 +7,11 @@ module.exports = {
     extend: {
       colors: {
         primary: '#B0CB1F',
-        primaryHover: '#9eb61b'
+        primaryHover: '#9eb61b',
+        primaryDark: '#2B2A29',
       },
       fontFamily: {
-        main: ['Roboto', 'sans-serif']
+        main: ['Montserrat', 'sans-serif']
       }
     },
 

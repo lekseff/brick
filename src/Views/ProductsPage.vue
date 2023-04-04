@@ -1,43 +1,20 @@
 <template>
-   <div class="flex flex-col min-h-screen text-stone-600">
+   <div>
+      <h1>Продукты</h1>
       <div
-          class="relative bg-[url('../assets/img/brick_back2.jpg')] bg-cover bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/60">
-         <div class="relative max-w-7xl mx-auto">
-            <TheHeader/>
-            <TheMenu/>
-         </div>
+          class="mt-14 grid grid-flow-row grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+      >
+         <BrickCard v-for="i in 3" :key="i"/>
       </div>
-      <section class="max-w-7xl mx-auto grow p-4">
-         <h2
-             class="text-center text-4xl font-extrabold tracking-wide text-stone-700 mt-8"
-         >
-            Наша
-            <span class="text-primary">продукция</span>
-         </h2>
-         <div class="mt-14">
-            <CardBrickFull />
-         </div>
-         <div>
-            <h3 class="text-2xl font-semibold text-stone-700 mt-4">Возможно подробное описание</h3>
-            <p class="mt-4">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam consectetur distinctio dolores est exercitationem neque quae rem totam unde! Atque esse facere facilis libero maiores nesciunt odio. Nam, numquam?
-            </p>
-         </div>
-
-      </section>
-      <TheFooter/>
    </div>
 </template>
 
 <script>
-import TheHeader from '../components/TheHeader.vue';
-import TheMenu from "../components/TheMenu.vue";
-import TheFooter from "../components/TheFooter.vue";
-import CardBrickFull from '../components/CardBrickFull.vue'
+import BrickCard from '../components/BrickCard.vue'
 
 export default {
    name: "ProductsPage",
-   components: {TheHeader, TheMenu, TheFooter, CardBrickFull}
+   components: {BrickCard}
 }
 </script>
 

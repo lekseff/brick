@@ -1,15 +1,15 @@
 <template>
-   <div class="text-white">
-      <ul class="h-20 flex items-center uppercase justify-around">
+   <div class="relative text-white before:absolute before:h-full before:w-full before:bg-black/50">
+      <ul class="relative h-20 flex items-center uppercase justify-around max-w-7xl mx-auto">
          <li>
             <router-link :to="{name: 'home'}"
-                         class="border-b-2 border-transparent hover:border-white transition-colors duration-200">
+                         class="border-b-2 border-transparent hover:border-white transition-colors duration-200 tracking-wider">
                Главная
             </router-link>
          </li>
          <li>
             <router-link :to="{name: 'products'}"
-                         class="border-b-2 border-transparent hover:border-white transition-colors duration-200">
+                         class="text-primary border-b-2 border-transparent hover:border-primary transition-colors duration-200">
                Продукция
             </router-link>
          </li>

@@ -1,6 +1,6 @@
 <template>
-   <footer class="border-t text-base text-stone-600">
-      <div class="mx-auto flex max-w-7xl items-start justify-between p-4">
+   <footer class="border-t text-base text-stone-600 mt-7">
+      <div class="mx-auto flex max-w-7xl items-start justify-between py-7 px-4">
          <!-- Логотип -->
          <div class="w-3/12 px-3">
             <router-link :to="{name: 'home'}">
