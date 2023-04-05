@@ -1,7 +1,8 @@
 <template>
-   <header class="flex items-center justify-between py-10 relative before:absolute before:h-full before:w-full before:bg-neutral-300/40">
-      <div class="max-w-7xl mx-auto flex items-center justify-between grow">
-<!-- Логотип -->
+   <header
+       class="flex items-center justify-between h-32 relative before:absolute before:h-full before:w-full before:bg-neutral-300/60 z-10">
+      <div class="max-w-7xl mx-auto flex items-center justify-between grow px-4">
+         <!-- Логотип -->
          <router-link :to="{name: 'home'}" class="relative">
             <img class="w-56" src="../assets/img/full_logo.png" alt="Логотип"/>
          </router-link>

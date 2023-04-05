@@ -1,11 +1,21 @@
 <template>
-  <router-view />
+   <component :is="layout">
+      <router-view />
+   </component>
+
 </template>
 
 <script>
-import HomePage from "./Views/HomePage.vue";
+import MainLayout from './layouts/MainLayout.vue';
+
 export default {
-   components: {HomePage}
+   name: 'App',
+   components: {MainLayout},
+   computed: {
+      layout () {
+         return this.$route.meta.layout + '-layout'
+      }
+   }
 }
 </script>
 

@@ -1,0 +1,10 @@
+/* Элемент меню */
+.nav-link {
+  @apply border-b-2 border-transparent hover:border-white transition-colors duration-200 select-none;
+}
+
+/* Активный элемент меню */
+.nav-link.router-link-active {
+  /*@extend .nav-link;*/
+  @apply border-primary text-primary hover:border-primary font-semibold;
+}
