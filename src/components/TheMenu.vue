@@ -1,5 +1,5 @@
 <template>
-   <div class="relative text-white before:absolute before:h-full before:w-full before:bg-black/50 z-10">
+   <nav class="relative text-white before:absolute before:h-full before:w-full before:bg-black/50 z-10">
       <ul class="relative h-20 flex items-center uppercase justify-around max-w-7xl mx-auto">
          <li>
             <router-link :to="{name: 'home'}" class="nav-link">
@@ -22,7 +22,7 @@
             </router-link>
          </li>
       </ul>
-   </div>
+   </nav>
 </template>
 
 <script>

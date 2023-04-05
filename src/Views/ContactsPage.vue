@@ -1,5 +1,5 @@
 <template>
-   <div class="mt-52 max-w-7xl mx-auto py-7 px-3">
+   <div class="max-w-7xl mx-auto py-7 px-3">
       <h1 class="text-center text-3xl font-bold tracking-wide">
          <span class="text-primary">Наши</span> контакты
       </h1>

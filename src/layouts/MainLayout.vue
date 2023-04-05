@@ -1,8 +1,6 @@
 <template>
-   <div class="absolute top-0 w-full bg-[url('../assets/img/white-brick.png')]">
-      <TheHeader/>
-      <TheMenu/>
-   </div>
+   <TheHeader/>
+   <TheMenu/>
    <div class="bg-[url('../assets/img/white-brick.png')]">
       <router-view/>
    </div>
