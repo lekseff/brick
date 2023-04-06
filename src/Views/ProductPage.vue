@@ -1,7 +1,5 @@
 <template>
-  <div class="flex min-h-full flex-col mt-52">
-<!--    <TheHeader />-->
-<!--    <TheMenu />-->
+  <div class="flex min-h-full flex-col">
     <section class="mx-auto max-w-7xl grow p-4">
       <h2
         class="mt-5 text-center text-3xl font-bold tracking-wide"

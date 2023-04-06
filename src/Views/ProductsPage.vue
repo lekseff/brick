@@ -6,7 +6,7 @@
       <div
           class="mt-14 grid grid-flow-row grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 px-3"
       >
-         <BrickCard v-for="i in 1" :key="i"/>
+         <BrickCard v-for="i in 4" :key="i"/>
       </div>
    </div>
 </template>

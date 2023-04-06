@@ -1,31 +1,22 @@
 <template>
    <div
-       class="absolute top-0 left-0 w-full h-screen bg-[url('../assets/img/back.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/40">
+       class="relative flex flex-col w-full h-screen bg-[url('../assets/img/back.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/40">
+      <TheHeader/>
+      <TheMenu/>
 
-<!--      &lt;!&ndash; Информация &ndash;&gt;-->
-<!--      <div class="relative mx-auto flex h-full max-w-7xl flex-col">-->
-<!--         <div class="absolute left-4 top-72">-->
-<!--            <h1 class="max-w-4xl text-6xl font-extrabold uppercase text-white tracking-wide leading-tight">-->
-<!--               Тамбовский кирпичный завод "Гиперпресс"-->
-<!--            </h1>-->
-<!--            <span class="mt-3 block text-lg font-medium text-white opacity-80">-->
-<!--               Лучший в мире кирпичный завод завод (Тут какой-то текст)-->
-<!--            </span>-->
-<!--            <BaseButton text="Заказать" class="mt-6"/>-->
-<!--         </div>-->
-<!--      </div>-->
-   </div>
-   <!-- Информация -->
-   <div class="relative mx-auto flex h-full max-w-7xl flex-col z-10 mt-28">
-      <div class="left-4 top-72">
-         <h1 class="max-w-4xl text-6xl font-extrabold uppercase text-white tracking-wide leading-tight">
-            Тамбовский кирпичный завод "Гиперпресс"
-         </h1>
-         <span class="mt-3 block text-lg font-medium text-white opacity-80">
+      <!-- Информация -->
+      <div class="relative max-w-7xl grow mx-auto p-4 w-full">
+<!--         <div class="w-full">-->
+            <h1 class="text-6xl mt-[10%] max-w-4xl font-extrabold uppercase text-white tracking-wide leading-tight">
+               Тамбовский кирпичный завод "Гиперпресс"
+            </h1>
+            <span class="mt-3 block text-lg font-medium text-white opacity-80">
                Лучший в мире кирпичный завод завод (Тут какой-то текст)
             </span>
-         <BaseButton text="Заказать" class="mt-6"/>
+            <BaseButton text="Заказать" class="mt-6"/>
+<!--         </div>-->
       </div>
+
    </div>
 
    <main class="mx-auto max-w-7xl bg-white p-4">
