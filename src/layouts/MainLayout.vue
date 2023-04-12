@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen relative">
     <TheHeader />
     <TheMenu bgColor="bg-primaryDark" />
-    <div class="bg-[url('../assets/img/white-brick.png')] grow">
+    <div class=" grow">
       <router-view />
     </div>
     <TheFooter />
