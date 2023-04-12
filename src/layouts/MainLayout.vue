@@ -1,10 +1,11 @@
 <template>
-  <div class="flex flex-col min-h-screen relative">
+  <div class="relative flex min-h-screen flex-col">
     <TheHeader />
     <TheMenu bgColor="bg-primaryDark" />
-    <div class=" grow">
+    <div class="grow">
       <router-view />
     </div>
+    <OrderForm />
     <TheFooter />
   </div>
 </template>
@@ -13,13 +14,12 @@
 import TheHeader from "../components/TheHeader.vue"
 import TheMenu from "../components/TheMenu.vue"
 import TheFooter from "../components/TheFooter.vue"
+import OrderForm from "../components/OrderForm.vue"
 
 export default {
   name: "MainLayout",
-  components: { TheFooter, TheHeader, TheMenu },
+  components: { TheFooter, TheHeader, TheMenu, OrderForm},
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

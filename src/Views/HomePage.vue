@@ -1,6 +1,6 @@
 <template>
    <div
-       class="relative flex flex-col w-full h-screen bg-[url('../assets/img/back.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/40">
+       class="relative flex flex-col w-full h-screen bg-[url('../assets/img/back14.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:h-full before:w-full before:bg-black/40">
       <TheHeader/>
       <TheMenu/>
 
@@ -56,7 +56,7 @@
                   Vel nemo dicta ducimus iusto architecto vitae magni assumenda
                   recusandae, minus, sint voluptate. Autem, iure.
                </p>
-               <BaseButton text="Связаться" class="mt-6"/>
+               <!-- <BaseButton text="Связаться" class="mt-6"/> -->
             </div>
          </div>
       </section>

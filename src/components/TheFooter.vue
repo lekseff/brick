@@ -11,16 +11,9 @@
          <!-- Адреса -->
          <div class="w-3/12 space-y-2 px-3">
             <span class="block font-semibold underline underline-offset-4">
-               Адреса
-            </span>
-            <p>
-               <span class="font-semibold">Офис:</span>
-               Тамбовская область, Тамбов, ул. Советская д.100
-            </p>
-            <p>
-               <span class="font-semibold">Производство:</span>
-               Тамбовская область, Котовск, ул. К.Маркса д.100
-            </p>
+               Адрес
+            </span>        
+            <p>Тамбовская область, Котовск, ул. К.Маркса д.100</p>
          </div>
 
          <!-- Режим работы -->
