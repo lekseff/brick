@@ -56,6 +56,7 @@
                   </a>
                </div>
             </div>
+            
             <!-- Почта -->
             <div class="mt-1 flex items-center justify-end">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -67,6 +68,7 @@
                   mail@yandex.com
                </a>
             </div>
+
             <!-- Соц иконки -->
             <div class="mt-5 flex justify-end space-x-2">
                <a class="inline-block h-9 w-9 transition-transform hover:scale-105" href="#">
